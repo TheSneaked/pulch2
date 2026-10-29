@@ -1,0 +1,20 @@
+{
+  "flowery": {
+    "subtitle": "sounds.pulch.flowery",
+      "sounds": [
+        "pulch:flowery"
+      ]
+    },
+  "knight": {
+    "subtitle": "sounds.pulch.knight",
+    "sounds": [
+      "pulch:knight"
+    ]
+    },
+  "kneel": {
+    "subtitle": "sounds.pulch.kneel",
+    "sounds": [
+      "pulch:kneel"
+    ]
+  }
+}

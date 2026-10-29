@@ -1,0 +1,25 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "pulch:item/sovereign_edge_gui"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "pulch:item/sovereign_edge"
+    },
+    "property": "minecraft:display_context"
+  }
+}

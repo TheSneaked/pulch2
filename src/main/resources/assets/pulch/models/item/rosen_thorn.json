@@ -1,0 +1,38 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "pulch:item/rosen_thorn"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, 15.5, -1],
+			"scale": [2.55, 2.55, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [0, 15.25, -1.25],
+			"scale": [2.55, 2.55, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [1.13, 7.45, 2.13],
+			"scale": [1.6, 1.6, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [81, -90, 25],
+			"translation": [1.13, 8.95, 2.13],
+			"scale": [1.6, 1.6, 0.68]
+		},
+		"ground": {
+			"translation": [0, 4.25, 0]
+		},
+		"head": {
+			"rotation": [0, 0, 44.5],
+			"translation": [0, 13.75, 0],
+			"scale": [4, 4, 1]
+		}
+	}
+}

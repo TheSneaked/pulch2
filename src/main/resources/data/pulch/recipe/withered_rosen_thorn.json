@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "pulch:blue_rosen_thorn",
+    "minecraft:wither_rose"
+  ],
+  "result": {
+    "id": "pulch:withered_rosen_thorn",
+    "count": 1
+  }
+}

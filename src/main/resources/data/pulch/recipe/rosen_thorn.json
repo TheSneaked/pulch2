@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:netherite_sword",
+    "minecraft:rose_bush",
+    "minecraft:gold_ingot"
+  ],
+  "result": {
+    "id": "pulch:rosen_thorn",
+    "count": 1
+  }
+}

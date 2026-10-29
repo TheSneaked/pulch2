@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "pulch:item/withered_rosen_thorn_gui"
+  }
+}

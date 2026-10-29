@@ -1,0 +1,25 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "pulch:item/withered_rosen_thorn_gui"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "pulch:item/withered_rosen_thorn"
+    },
+    "property": "minecraft:display_context"
+  }
+}

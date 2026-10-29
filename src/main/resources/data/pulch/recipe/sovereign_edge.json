@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "pulch:withered_rosen_thorn",
+    "minecraft:gold_ingot"
+  ],
+  "result": {
+    "id": "pulch:sovereign_edge",
+    "count": 1
+  }
+}
