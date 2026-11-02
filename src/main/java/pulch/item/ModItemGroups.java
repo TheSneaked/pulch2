@@ -26,6 +26,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.pulch.coronated_items"))
                     .entries((displayContext, entries) -> {
                     entries.add(ModItems.SOVEREIGN_EDGE);
+                        entries.add(ModItems.ROYAL_PARDON);
                     }).build());
 
 

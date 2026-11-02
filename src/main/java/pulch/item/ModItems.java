@@ -1,5 +1,10 @@
 package pulch.item;
 
+import net.minecraft.component.type.AttributeModifierSlot;
+import net.minecraft.component.type.AttributeModifiersComponent;
+import net.minecraft.entity.attribute.EntityAttributeModifier;
+import net.minecraft.entity.attribute.EntityAttributes;
+import net.minecraft.item.ItemStack;
 import pulch.Pulch;
 import pulch.item.custom.RosenThorn;
 import net.minecraft.item.Item;
@@ -42,9 +47,9 @@ public class ModItems {
             1542, 11.5F, 3.5F, 15, ItemTags.NETHERITE_TOOL_MATERIALS);
     public static final Item SOVEREIGN_EDGE = registerItem(
             "sovereign_edge", settings ->
-                    new SovereignEdge(settings.sword(SOVEREIGN_EDGE_MATERIAL, 3.5f, -3f)
-                    ));
-
+                    new SovereignEdge(settings.sword(SOVEREIGN_EDGE_MATERIAL, 3.5f, -3f)));
+    public static final Item ROYAL_PARDON = registerItem(
+            "royal_pardon", Item::new);
     private static Item registerItem(String name, Function<Item.Settings, Item> function) {
         return Registry.register(Registries.ITEM, Identifier.of(Pulch.MOD_ID, name),
                 function.apply(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Pulch.MOD_ID, name)))));
